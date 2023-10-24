@@ -1,2 +1,2 @@
 # turkey-trot-2023
-Website detailing the Blue Talon Bistro 2023 Turkey Trot.
+Website detailing the 2023 Blue Talon Bistro Turkey Trot.
