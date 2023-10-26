@@ -27,6 +27,8 @@ p {
     box-sizing: border-box;
 }
 
+/* For Mobile */
+
 /* Navigation for mobile goes here */
 
 .navigation {
@@ -222,5 +224,6 @@ nav a:hover {
         background-repeat: no-repeat;
         background-position: center;
         height: 70vh;
+        flex-shrink: 0;
     }
 }
