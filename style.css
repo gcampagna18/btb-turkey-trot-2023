@@ -157,7 +157,7 @@ nav a:hover {
 
 .hero-content h1 {
     color: var(--primary-color);
-    text-align: left;
+    text-align: center;
 }
 
 .hero-btn {
@@ -315,7 +315,7 @@ nav a:hover {
         padding: 25px 72px 25px 150px;
         flex-direction: column;
         justify-content: center;
-        align-items: flex-start;
+        align-items: left;
         gap: 25px;
         flex-shrink: 0;
     }
