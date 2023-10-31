@@ -181,6 +181,11 @@ nav a:hover {
     cursor: pointer;
 }
 
+.register-button a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
 /* ABOUT SECT FOR MOBILE HERE */
 .about {
     background-color: var(--primary-color);
@@ -234,9 +239,55 @@ nav a:hover {
     margin: 2em 0;
 }
 
+.schedule h2 {
+    margin-bottom: 20px;
+}
+
+.schedule h4 {
+    margin-bottom: 20px;
+}
+
 .list-item {
     display: flex;
+    /* grid-template-columns: repeat(2, 1fr);
+    gap: 75px; */
+    margin-bottom: 33px;
 }
+
+.time {
+    width: 85px;
+    margin-right: 10px;
+    font-weight: 600;
+}
+
+.activity {
+    width: 275px;
+}
+
+.parking h2 {
+    margin-bottom: 20px;
+}
+
+.parking p {
+    margin-bottom: 20px;
+}
+
+.parking-btn {
+    margin-bottom: 20px;
+}
+
+.accomidations h2 {
+    margin-bottom: 20px;
+}
+
+.accomidations p {
+    margin-bottom: 20px;
+}
+
+.acc-btn {
+    margin-bottom: 45px;
+}
+
 
 /* MEDIA QUEREY FOR DESKTOP */
 
