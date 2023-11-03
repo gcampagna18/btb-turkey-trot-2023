@@ -289,6 +289,38 @@ nav a:hover {
 }
 
 
+/* EVENT SPONSORS SECTION */
+.sponsors {
+    background: var(--primary-color);
+    padding: 30px 20px;
+}
+
+.sponsors h1 {
+    margin-bottom: 20px;
+}
+
+.sponsor-logos {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2em;
+    align-items: center;
+}
+.sponsor-logos img {
+    margin: 0 auto;
+}
+
+.op-bank {
+    width: 145px;
+}
+
+.literacy4life {
+    width: 230px;
+}
+
+.maxfit {
+    width: 85px;
+}
+
 /* MEDIA QUEREY FOR DESKTOP */
 
 @media screen and (min-width: 980px) {
