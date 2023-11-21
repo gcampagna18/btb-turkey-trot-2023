@@ -507,13 +507,33 @@ footer a:hover {
 
 footer p {
     color: var(--primary-color);
-    text-align: right;
-    
+    text-align: center; 
 }
 
-/* MEDIA QUEREY FOR DESKTOP */
 
+/* FAQ STYLES FOR MOBILE HERE */
+
+.faq-hero {
+    background-image: url(project-images/mobile-faq-hero.jpg);
+    height: 145px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.faq-hero h1 {
+    color: var(--primary-color);
+    text-align: center;
+
+}
+
+
+
+
+
+/* MEDIA QUEREY FOR DESKTOP */
 @media screen and (min-width: 980px) {
+    /* DESKTOP NAVIGATION */
     .nav-toggle-label {
         display: none;
     }
@@ -548,7 +568,6 @@ footer p {
     }
 
     /*   add line baove or below selection on hover */
-
     nav a::before {
         content: "";
         display: block;
@@ -568,7 +587,7 @@ footer p {
         transform: scale(1, 1);
     }
 
-    /*   contents */
+    /*   DESKTOP CONTENTS */
 
     .hero {
         background-image: url(project-images/desktop-hero.jpg);
@@ -748,6 +767,10 @@ footer p {
     footer li {
         text-align: left;
         line-height: 1.5em;
+    }
+
+    footer p {
+        text-align: right;
     }
 
     .right-footer {
