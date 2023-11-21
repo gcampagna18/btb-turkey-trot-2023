@@ -474,6 +474,7 @@ footer li {
     line-height: 2em;
     text-align: center;
 }
+
 footer a {
     color: var(--primary-color);
     text-decoration: none;
@@ -506,7 +507,7 @@ footer a:hover {
 
 footer p {
     color: var(--primary-color);
-    text-align: center;
+    text-align: right;
     
 }
 
@@ -677,5 +678,85 @@ footer p {
     
     .maxfit {
         width: 168px;
+    }
+
+    .volunteer {
+        padding: 40px 150px 40px 150px;
+    }
+
+    .form-row {
+        display: flex;
+        justify-content: center;
+        gap: 1em;
+    }
+
+    .form-row input {
+        display: block;
+        width: 450px;
+        padding: .5em;
+    }
+
+    #position {
+        width: 450px;
+        padding: .5em;
+    }
+
+
+
+    .more-content {
+        padding: 40px 150px 40px 150px;
+    }
+
+    .content-cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3em;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .display-card {
+        height: 200px;
+    }
+
+    .faq-card {
+        margin-bottom: 0;
+        background-image: url(project-images/desktop-faq-pic-mini.jpg);
+    }
+
+    .contact-card {
+        margin-top: 0;
+        background-image: url(project-images/desktop-contact-us-pic-mini.jpg);
+    }
+
+    footer {
+        padding: 40px 150px 40px 150px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    footer h1 {
+        text-align: left;
+    }
+
+    footer ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: .5em;
+    }
+
+    footer li {
+        text-align: left;
+        line-height: 1.5em;
+    }
+
+    .right-footer {
+        display: block;
+        justify-content: right;
+        grid-column: 3/4;
+    }
+
+    .footer-socials {
+        justify-content: right;
     }
 }
