@@ -637,7 +637,7 @@ footer p {
         transform: scale(1, 1);
     }
 
-    /*   DESKTOP CONTENTS */
+    /*   LANDING PAGE CONTENTS */
 
     .hero {
         background-image: url(project-images/desktop-hero.jpg);
@@ -831,5 +831,63 @@ footer p {
 
     .footer-socials {
         justify-content: right;
+    }
+
+    /* FAQ PAGE CONTENTS */
+
+    .faq-hero {
+        height: 315px;
+        background-image: url(project-images/desktop-faq-hero.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .faq-hero h1 {
+        font-size: 48px;
+    }
+
+    .questions {
+        padding: 80px 150px 0 150px;
+    }
+
+    .q-a {
+        margin-bottom: 50px;
+    }
+
+    .faq-register {
+        padding: 50px 150px 95px 150px;
+    }
+
+    .faq-register h2 {
+        text-align: left;
+    }
+
+    .registration-box {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        /*display: flex;*/
+        gap: 2em;
+    }
+
+    .registration-box img {
+        grid-column: 1/3;
+        height: 100%;
+    }
+
+    .faq-pricing {
+        L
+    }
+
+    .faq-pricing h3{
+        text-align: left;
+    }
+
+    .faq-pricing p {
+        text-align: left;
+    }
+
+    .pricing2-btn {
+        margin: k;
     }
 }
