@@ -876,7 +876,8 @@ footer p {
     }
 
     .faq-pricing {
-        L
+        justify-content: center;
+        align-items: center;
     }
 
     .faq-pricing h3{
