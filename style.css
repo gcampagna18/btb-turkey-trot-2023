@@ -403,10 +403,15 @@ select {
     cursor: pointer;
 }
 
-.submit-btn {
-    display: block;
-    margin: 0 auto;
+.volunteer-btns {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    padding-top: 1em;
 }
+
+
+
 
 /* MORE CONTENT section */
 .more-content {
@@ -602,6 +607,11 @@ footer p {
 
 .contact {
     padding: 30px 20px;
+    background-color: var(--primary-color);
+}
+
+.contact p {
+    margin-bottom: 2em;
 }
 
 .contact-form-row input{
@@ -625,7 +635,50 @@ footer p {
     margin-bottom: 1em;
 }
 
+textarea {
+    resize: none;
+    width: 100%;
+    height: 200px;
+    border-radius: 3px;
+    border: 0.5px solid #000;
+    background-color: #F2EFED;
+    margin-bottom: 1.5em;
+}
 
+.contact-form-bottom {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.contact hr {
+    margin: 35px 0;
+    border: 1px solid #000;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-info h1 {
+    text-align: center;
+}
+
+.btb-contact {
+    margin: 0 auto;
+}
+
+.btb-info {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 1em;
+}
+
+.btb-info p {
+    margin: 14px 0 14px 0;
+}
 
 
 /* MEDIA QUEREY FOR DESKTOP */
