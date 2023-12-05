@@ -996,4 +996,36 @@ textarea {
         margin: initial;
         margin-bottom: 3em;
     }
+
+    /* CONTACT FORM CONTENTS */
+
+    .contact-hero {
+        height: 315px;
+        background-image: url(project-images/desktop-contact-hero.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .contact-hero h1 {
+        font-size: 48px;
+    }
+
+    .contact {
+        padding: 65px 300px 65px 300px;
+    }
+
+    .btb-contact {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2em;
+    }
+
+    .contact-info h1 {
+        margin-bottom: 1em;
+    }
+
+    .btb-email {
+        padding-right: 1em;
+    }
 }
