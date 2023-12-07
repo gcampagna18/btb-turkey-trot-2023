@@ -4,18 +4,23 @@ const anchors = document.querySelectorAll('a');
 
 function checkAll(){
     input.checked = false;
-    console.log(input)
 }
 
 
 window.onload = function() {
     window.addEventListener('resize', checkAll, false);
     nav.addEventListener('click', checkAll, false);
-    console.log('clicked');
+   
 }
 anchors.forEach((e) => {
     e.addEventListener('click', checkAll, false);
-    console.log('clicked');
 
 });
+
+window.onscroll = function() {
+    if (window.scrollY > 100){
+        checkAll();
+    }
+}
+
 
