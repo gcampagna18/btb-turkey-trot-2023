@@ -133,6 +133,11 @@ nav a:hover {
     transition: opacity 250ms ease-in-out 250ms;
 }
 
+.btb-logo {
+    width: 275px;
+    height: 100%;
+}
+
 
 /* ABOUT SECT FOR MOBILE HERE */
 .hero {
