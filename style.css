@@ -471,12 +471,16 @@ footer {
     background-color: #393334;
     padding: 45px 40px;
 }
-
+/* 
 footer h1 {
     color: var(--primary-color);
     text-align: center;
     display: block;
     margin-bottom: .5em;
+} */
+
+.footer-logo {
+    width: 340px;
 }
 
 footer li {
