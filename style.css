@@ -863,6 +863,15 @@ textarea {
         padding: 40px 150px 40px 150px;
     }
 
+    .volunteer h1 {
+        text-align: center;
+        padding-bottom: .5em;
+    }
+
+    .volunteer h4 {
+        text-align: center;
+    }
+
     .form-row {
         display: flex;
         justify-content: center;
