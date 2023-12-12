@@ -810,18 +810,19 @@ textarea {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 3em;
+        padding-bottom: 1em;
     }
 
     .map-schedule {
         display: flex;
-        gap: 1.5em;
+        gap: 2.5em;
     }
 
     .google-map {
         margin: 2em 0em;
         width: 750px;
         height: 420;
-        border:0;
+        border: 0;
     }
 
     .pricing {
@@ -838,7 +839,7 @@ textarea {
     }
 
     .sponsors {
-        padding: 50px 150px 50px 150px;
+        padding: 30px 150px 50px 150px;
     }
 
     .sponsor-logos {
