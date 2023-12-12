@@ -545,7 +545,12 @@ footer p {
 
 .questions {
     padding: 0px 20px;
+    background-color: var(--primary-color);
 }
+
+/* .questions2 {
+    background-color: var(--primary-color);
+} */
 
 .q-a {
     margin: 2.5em 0em;
@@ -560,7 +565,7 @@ footer p {
 }
 
 .faq-register {
-    margin: 30px 20px;
+    padding: 30px 20px;
 }
 
 .faq-register h2 {
