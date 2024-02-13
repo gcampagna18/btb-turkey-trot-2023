@@ -8,7 +8,7 @@
     --primary-color: #F8F3EF;
     --secondary-color: #511624;
     --tertiary-color: #A55B25;
-    --accent-color: #6A8FB1;
+    --accent-color: #E5BE4E;
 }
 
 h1, h2 {
@@ -232,6 +232,7 @@ nav a:hover {
 .details-box h3 {
     color: var(--primary-color); 
     text-align: center;
+    padding-top: .4em;
 }
 
 .details-box p {
@@ -947,10 +948,21 @@ textarea {
         text-align: right;
     }
 
+    .left-footer {
+        padding-bottom: 1em;
+    }
+
+    .middle-footer {
+        padding-left: 3em;
+        display: flex;
+        align-items: center;
+    }
+
     .right-footer {
         display: block;
         justify-content: right;
         grid-column: 3/4;
+        padding-top: .5em;
     }
 
     .footer-socials {
